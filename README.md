@@ -14,7 +14,7 @@ Students will be awarded up to 10 points for successfully completing this lab as
 1. Change into the repository directory and create only two java files:  ```StackTester.java and CharStack.java```.
 
 The UML for today’s lab is shown below and matches class presentation.  
-![UML]{images/UML.png}
+![UML]{/images/UML.png}
 
 ### Step 2 Completing the CharStack
 You've been given a partially documented, partially implemented stack to work with. Study the [CharStack.java starter code](CharStack.java) you’ve been given and:
