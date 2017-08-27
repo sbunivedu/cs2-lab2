@@ -9,11 +9,7 @@ Students will be awarded up to 10 points for successfully completing this lab as
 
 ## Instructions
 ### Step 1 Getting Started
-1. Clone this repository into your cloud9 workspace.
-
-1. Change into the repository directory and create only two java files:  ```StackTester.java and CharStack.java```.
-
-The UML for today’s lab is shown below and matches class presentation.  
+Clone this repository into your cloud9 workspace. The UML for today’s lab is shown below and matches class presentation.  
 ![UML](/images/UML.png)
 
 ### Step 2 Completing the CharStack
