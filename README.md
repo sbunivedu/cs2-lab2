@@ -9,12 +9,12 @@ Students will be awarded up to 10 points for successfully completing this lab as
 
 ## Instructions
 ### Step 1 Getting Started
-1. Clone this repository into your cloud9 worksapce.
+1. Clone this repository into your cloud9 workspace.
 
 1. Change into the repository directory and create only two java files:  ```StackTester.java and CharStack.java```.
 
 The UML for today’s lab is shown below and matches class presentation.  
-![UML]{/images/UML.png}
+![UML]{images/UML.png}
 
 ### Step 2 Completing the CharStack
 You've been given a partially documented, partially implemented stack to work with. Study the [CharStack.java starter code](CharStack.java) you’ve been given and:
@@ -27,10 +27,10 @@ You've been given a partially documented, partially implemented stack to work wi
 
 ### Step 3 Working With The Character Stack
 Your next task, once you have demonstrated a tested and working stack, is to make your stack evaluate a parenthesized expression for correctness.  In other words,
-> (A+B) is a properly parenthesized expression
-> ((A+B)-(C*D)) is a properly parenthesized expression
-> ((A+B) is not correct and A+B) is not correct.
-> You may assume single letter variable names.
+* (A+B) is a properly parenthesized expression
+* ((A+B)-(C*D)) is a properly parenthesized expression
+* ((A+B) is not correct and A+B) is not correct.
+* You may assume single letter variable names.
 
 #### Algorithm
 The basic algorithm you should try using is as follows:  
