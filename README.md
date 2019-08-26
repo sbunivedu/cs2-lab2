@@ -25,7 +25,7 @@ You've been given a partially documented, partially implemented stack to work wi
 Your next task, once you have demonstrated a tested and working stack, is to make your stack evaluate a parenthesized expression for correctness.  In other words,
 * `(A+B)1` is a properly parenthesized expression
 * `((A+B)-(C*D))` is a properly parenthesized expression
-* `((A+B)` is not correct and A+B) is not correct.
+* `((A+B)` is not correct and `A+B)` is not correct.
 * You may assume single letter variable names.
 
 #### Algorithm
