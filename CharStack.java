@@ -1,8 +1,7 @@
-public class CharStack
-{
+public class CharStack{
   private final int MAX_CAP = 100;
   private int top; //location of top item on the stack
-  private char [] s; //The stack
+  private char[] s; //The stack
 
   public CharStack(){
     //PRE:
@@ -16,11 +15,11 @@ public class CharStack
     //PRE:
     //POS:
     //TAS: Add a new item to the stack
-    top ++;
+    top++;
     s[top] = element;
   }
 
-  public char pop (){
+  public char pop(){
     //PRE:
     //POS:
     //TAS: remove and return the item on the top of the stack
@@ -40,5 +39,13 @@ public class CharStack
     //POS:
     //TAS: return whether or not the stack is full
     return top == MAX_CAP-1;
+  }
+
+  public String toString(){
+    String result = "";
+    for(int i=0; i<=top; i++){
+      result += s[i];
+    }
+    return result;
   }
 }
