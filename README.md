@@ -9,7 +9,7 @@ Students will be awarded up to 10 points for successfully completing this lab as
 
 ## Instructions
 ### Step 1 Getting Started
-Clone this repository into your cloud9 workspace. The UML for today’s lab is shown below and matches class presentation.
+Clone this repository into your programming environment. The UML for today’s lab is shown below and matches class presentation.
 ![UML](/images/UML.png)
 
 ### Step 2 Completing the CharStack
@@ -36,7 +36,7 @@ The basic algorithm you should try using is as follows:
 
 NOTE: It is YOUR responsibility to make sure you do not pop or peek an empty stack.
 
-When you finish, show your code to your lab instructor.
+When you finish, show your code to your lab instructor to get the magic number.
 
 ### Step 4 If You Have Time
 Stacks are useful in many ways.  One way a stack can be useful is in evaluating a word to see if it is a palindrome. You will recall that a palindrome is a word that reads the same forwards as backwards.  "MOM", "WOW", and RACECAR are all palindromes.
