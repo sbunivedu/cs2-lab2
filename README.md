@@ -36,7 +36,7 @@ The basic algorithm you should try using is as follows:
 
 NOTE: It is YOUR responsibility to make sure you do not pop or peek an empty stack.
 
-When you finish, show your code to your lab instructor to get the magic number.
+Please create a "result.txt" file with the output from your test cases (in the console) to prove that your solution works correctly.
 
 ### Step 4 If You Have Time
 Stacks are useful in many ways.  One way a stack can be useful is in evaluating a word to see if it is a palindrome. You will recall that a palindrome is a word that reads the same forwards as backwards.  "MOM", "WOW", and RACECAR are all palindromes.
