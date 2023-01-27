@@ -43,7 +43,7 @@ public class CharStack{
 
   public String toString(){
     String result = "";
-    for(int i=0; i<=top; i++){
+    for(int i=top; i>=0; i--){
       result += s[i];
     }
     return result;

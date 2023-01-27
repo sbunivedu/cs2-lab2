@@ -14,12 +14,12 @@ Clone this repository into your programming environment. The UML for today’s l
 
 ### Step 2 Completing the CharStack
 You've been given a partially documented, partially implemented stack to work with. Study the [CharStack.java starter code](CharStack.java) you’ve been given and:
-* Implement the pop method.  Currently it is stubbed in.  Be careful to decrement your top before returning the item.
-* Implement the isEmpty method. Currently it is stubbed in. Look at the constructor for a clue as to what an empty stack looks like.
-*	Implement the peek method.  It is missing.
-*	Add a method called toString which creates and returns all the characters on the stack left to right, starting at the top.
-*	Test all the methods in the CharStack class in the StackTester class. You should "guard" your pushes by checking to make sure the stack is not full, and you should guard your pops by checking to make sure the stack is not empty. Some unfinished sample code to test your stack is [CharStackTester.java starter code](CharStackTester.java).
-*	Fill in all the pre/postcondition statements using the conventions presented in class.
+* Implement the `pop` method.  Currently it is stubbed in.  Be careful to decrement your top before returning the item.
+* Implement the `isEmpty` method. Currently it is stubbed in. Look at the constructor for a clue as to what an empty stack looks like.
+* Implement the `peek` method.  It is missing.
+* Add a method called `toString` which creates and returns all the characters on the stack left to right, starting at the top.
+* Test all the methods in the `CharStack` class in the `StackTester` class. You should "guard" your pushes by checking to make sure the stack is not full, and you should guard your pops by checking to make sure the stack is not empty. Some unfinished sample code to test your stack is [CharStackTester.java starter code](CharStackTester.java).
+* Fill in all the pre/postcondition statements using the conventions presented in class.
 
 ### Step 3 Working With The Character Stack
 Your next task, once you have demonstrated a tested and working stack, is to make your stack evaluate a parenthesized expression for correctness.  In other words,
@@ -30,8 +30,8 @@ Your next task, once you have demonstrated a tested and working stack, is to mak
 
 #### Algorithm
 The basic algorithm you should try using is as follows:
-1. Read in a String from the keyboard.
-2. Using a for loop, parse the String left to right character by character.
+1. Read in a `String` from the keyboard.
+2. Using a `for` loop, parse the `String` left to right character by character.
 3. Whenever an opening symbol (a left paren) is encountered in the input, push it on the stack. Each time a closing symbol (right paren) appears, pop the stack. At the end of the input, the opening and closing symbols are balanced if and only if the stack is empty.
 
 NOTE: It is YOUR responsibility to make sure you do not pop or peek an empty stack.
@@ -39,6 +39,7 @@ NOTE: It is YOUR responsibility to make sure you do not pop or peek an empty sta
 Please create a "result.txt" file with the output from your test cases (in the console) to prove that your solution works correctly.
 
 ### Step 4 If You Have Time
-Stacks are useful in many ways.  One way a stack can be useful is in evaluating a word to see if it is a palindrome. You will recall that a palindrome is a word that reads the same forwards as backwards.  "MOM", "WOW", and RACECAR are all palindromes.
+Stacks are useful in many ways.  One way a stack can be useful is in evaluating a word to see if it is a palindrome. You will recall that a palindrome is a word that reads the same forwards as backwards.  "MOM", "WOW", and "RACECAR" are all palindromes.
 
-Adapt the algorithm in your main method to read in a word.  Using one or more stacks, see if you can create an algorithm which decides if the word is a palindrome. If you still have time, you may work on program 1.
+Adapt the algorithm in your main method to read in a word. Using one or more stacks, see if you can create an algorithm which decides if the word is a palindrome.
+
